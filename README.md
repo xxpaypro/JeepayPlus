@@ -5,69 +5,367 @@
 
 Jeepay Plus 耗时2个月精心打磨，做一个真正可落地使用的聚合支付系统，为商业客户提供完整的支付解决方案。
 
-系统对比
-项目	Jeepay开源版	Jeepay PLus商业版
-系统架构	Spring Boot	✅	✅
-Mybatis	✅	✅
-Redis	✅	✅
-Mq	activemq/rockmq/rabbitmq	activemq/rockmq/rabbitmq
-mysql	✅	✅
-读写分离	❌	✅
-前端框架	Ant Design Vue 2.0	Ant Design Vue 3.0
-支付网关	支付接口	✅	✅
-退款接口	✅	✅
-转账接口	✅	✅
-分账接口	✅	✅
-动态聚合码	✅	✅
-静态聚合码	❌	✅
-聚合码H5	✅	✅
-聚合码小程序	❌	✅
-运营平台	Web管理端	✅	✅
-商户管理	✅	✅
-应用管理	✅	✅
-门店管理	❌	✅
-进件管理	❌	✅
-代理商管理	❌	✅
-服务商管理	✅	✅
-订单管理	✅	✅
-支付配置	✅	✅
-费率配置	❌	✅
-分账管理	❌	✅
-分账开户	❌	✅
-码牌管理	❌	✅
-码牌模板	❌	✅
-云喇叭管理	❌	✅
-云打印管理	❌	✅
-扫码pos管理	❌	✅
-系统配置	❌	短信配置（阿里）
-存储配置（本地或阿里云OSS）
-OCR配置（阿里云或腾讯云）
-地图配置（高德）
-推送配置（个推）
-语音合成（百度）
-权限管理	✅	✅
-自定义界面	❌	✅
-微信订单通知	❌	✅
-APP版本管理	❌	✅
-商户系统	Web管理端	✅	✅
-商户通APP	❌	✅
-商户通小程序	❌	✅
-商户注册	❌	✅
-商户进件	❌	✅
-防逃单功能	❌	✅
-语音播报	❌	✅
-订单管理	✅	✅
-分账管理	✅	✅
-设备管理	❌	✅
-权限管理	✅	✅
-代理商系统	Web管理端	❌	✅
-展业宝APP	❌	✅
-展业宝小程序	❌	✅
-商户管理	❌	✅
-代理商管理	❌	✅
-设备管理	❌	✅
-账户中心	❌	✅
-钱包管理	❌	✅
-佣金提现	❌	✅
-团队管理	❌	✅
-拓展员管理	❌	✅
+<table>
+<thead>
+<tr>
+<th></th>
+<th>项目</th>
+<th>Jeepay开源版</th>
+<th>Jeepay PLus商业版</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>系统架构</td>
+<td>Spring Boot</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>Mybatis</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>Redis</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>Mq</td>
+<td>activemq/rockmq/rabbitmq</td>
+<td>activemq/rockmq/rabbitmq</td>
+</tr>
+<tr>
+<td></td>
+<td>mysql</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>读写分离</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>前端框架</td>
+<td>Ant Design Vue 2.0</td>
+<td>Ant Design Vue 3.0</td>
+</tr>
+<tr>
+<td>支付网关</td>
+<td>支付接口</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>退款接口</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>转账接口</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>分账接口</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>动态聚合码</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>静态聚合码</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>聚合码H5</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>聚合码小程序</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>运营平台</td>
+<td>Web管理端</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>商户管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>应用管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>门店管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>进件管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>代理商管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>服务商管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>订单管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>支付配置</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>费率配置</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>分账管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>分账开户</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>码牌管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>码牌模板</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>云喇叭管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>云打印管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>扫码pos管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>系统配置</td>
+<td>❌</td>
+<td>短信配置（阿里）<br>存储配置（本地或阿里云OSS）<br>OCR配置（阿里云或腾讯云）<br>地图配置（高德）<br>推送配置（个推）<br>语音合成（百度）</td>
+</tr>
+<tr>
+<td></td>
+<td>权限管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>自定义界面</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>微信订单通知</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>APP版本管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>商户系统</td>
+<td>Web管理端</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>商户通APP</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>商户通小程序</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>商户注册</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>商户进件</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>防逃单功能</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>语音播报</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>订单管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>分账管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>设备管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>权限管理</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>代理商系统</td>
+<td>Web管理端</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>展业宝APP</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>展业宝小程序</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>商户管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>代理商管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>设备管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>账户中心</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>钱包管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>佣金提现</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>团队管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td></td>
+<td>拓展员管理</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+</tbody></table>
