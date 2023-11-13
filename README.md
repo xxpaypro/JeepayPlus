@@ -34,7 +34,7 @@ JeePayPlus是一套开箱即用、适合拿来直接运营的聚合支付系统�
 
 后台管理： https://www.paofenpay.com/ht.php 帐号：admin 密码：123456
 
-前端：https://www.paofenpay.com 帐号：13122222222 密码：13122222222
+前端：https://www.paofenpay.com 帐号：188123456771 密码：123456
 
 前台测试地址: https://www.paofenpay.com/?c=Pay&a=test&v=v5.0.21
 
