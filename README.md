@@ -42,7 +42,7 @@ JeePayPlus是一套开箱即用、适合拿来直接运营的聚合支付系统�
 
 测试账号密码会定期更改，如不对请联系客服发新的账号密码
 
-如需要最新完整商业版本 飞机 Telegram：@xxpaypro
+如需要最新完整商业版本 土豆(Potato) 飞机(Telegram)：@xxpaypro
 
 <table>
 <thead>
