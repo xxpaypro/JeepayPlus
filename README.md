@@ -28,7 +28,7 @@ JeePayPlus是一套开箱即用、适合拿来直接运营的聚合支付系统�
 
 注：不提供软件开发环境搭建、不提供java基础辅导、仅限该系统业务技术交流。
 
-如需要最新完整商业版本请联系  飞机(Telegram)：@xxpaypro
+如需要最新完整商业版本请联系  飞机(Telegram)：[@xxpaypro](https://t.me/xxpaypro)
 
 <table>
 <thead>
